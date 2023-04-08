@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-multi-carousel-list {
+  padding-bottom: 3rem;
+}
+.react-multi-carousel-track {
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .react-multi-carousel-track {
+    gap: 2rem;
+  }
+}
+.react-tabs__tab--selected {
+  color: #004db3;
+}
+
+.react-multiple-carousel__arrow {
+z-index: 30;
+}
